@@ -8,8 +8,11 @@ let program:WebGLProgram; //array of different shader programs
 let vPosition:GLint;
 let vTexCoord:GLint;
 let time:WebGLUniformLocation;
+let flameType:WebGLUniformLocation;
 
 let tick:number = 0.0;
+
+let flame:number = 0;
 
 let canvas:HTMLCanvasElement;
 
@@ -28,6 +31,19 @@ window.onload = function init() {
     gl.viewport(0, 0, gl.drawingBufferWidth, gl.drawingBufferHeight);
 
     time = gl.getUniformLocation(program, "time");
+    flameType = gl.getUniformLocation(program, "flame");
+
+    window.addEventListener("keydown", function(event){
+        switch(event.key) {
+            case "t":
+                if(flame == 1){
+                    flame = 0;
+                }else{
+                    flame = 1;
+                }
+                break;
+        }
+    });
 
     makePoint();
 
@@ -71,6 +87,7 @@ function makePoint(){
 function render(){
     gl.clear(gl.COLOR_BUFFER_BIT);
     gl.uniform1f(time, tick);
+    gl.uniform1f(flameType, flame);
 
     gl.drawArrays(gl.TRIANGLE_FAN, 0, 4);
 }

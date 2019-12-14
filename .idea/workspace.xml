@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb47f27d-c624-4e1a-a46a-11c42e0bbf53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fshader-unlit.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/fshader-unlit.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightingfunctions-skeleton.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightingfunctions-skeleton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightingfunctions-skeleton.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lightingfunctions-skeleton.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightingfunctions-skeleton.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lightingfunctions-skeleton.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,7 @@
       <workItem from="1570717167929" duration="4621000" />
       <workItem from="1576026873598" duration="40000" />
       <workItem from="1576026991865" duration="18459000" />
-      <workItem from="1576194602324" duration="5242000" />
+      <workItem from="1576194602324" duration="14223000" />
     </task>
     <servers />
   </component>
