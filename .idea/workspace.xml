@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb47f27d-c624-4e1a-a46a-11c42e0bbf53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/lighting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/final_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fshader-unlit.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/fshader-unlit.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightingfunctions-skeleton.js" beforeDir="false" afterPath="$PROJECT_DIR$/lightingfunctions-skeleton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightingfunctions-skeleton.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/lightingfunctions-skeleton.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lightingfunctions-skeleton.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lightingfunctions-skeleton.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lighting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fshader-unlit.glsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightingfunctions-skeleton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightingfunctions-skeleton.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lightingfunctions-skeleton.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vshader-unlit.glsl" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +36,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -68,19 +73,31 @@
       <workItem from="1570717167929" duration="4621000" />
       <workItem from="1576026873598" duration="40000" />
       <workItem from="1576026991865" duration="18459000" />
-      <workItem from="1576194602324" duration="14223000" />
+      <workItem from="1576194602324" duration="19988000" />
+      <workItem from="1576532961114" duration="79000" />
+      <workItem from="1576544135086" duration="3146000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/lightingfunctions-skeleton.js" />
-        <option value="$PROJECT_DIR$/helperfunctions.js" />
-        <option value="$PROJECT_DIR$/lightingfunctions-skeleton.js.map" />
-        <option value="$PROJECT_DIR$/helperfunctions.js.map" />
-      </list>
-    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="190" key="#Notifications" timestamp="1576365017917">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#Notifications/0.0.1680.1050@0.0.1680.1050" timestamp="1576365017917" />
+    <state x="536" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576532584312">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="536" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1576532584312" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1576365012975">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1576365012975" />
+    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582814701963">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1582814701963" />
   </component>
 </project>
